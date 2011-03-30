@@ -1,0 +1,45 @@
+# MySQL.  Versions 4.1 and 5.0 are recommended.
+#
+# Install the MySQL driver:
+#   gem install mysql2
+#
+# And be sure to use new-style password hashing:
+#   http://dev.mysql.com/doc/refman/5.0/en/old-client.html
+development:
+  adapter: jdbcmysql
+  encoding: utf8
+  reconnect: false
+  username: ysstats
+  password:  
+  database: ysstats_development
+  pool: 5
+#  socket: /tmp/mysql.sock
+
+test:
+  adapter: jdbcmysql
+  encoding: utf8
+  reconnect: false
+  database: ysstats_test
+  pool: 5
+  username: ysstats
+  password:
+#  socket: /tmp/mysql.sock
+
+production:
+  adapter: jdbcmysql
+  encoding: utf8
+  reconnect: false
+  database: ysstats_production
+  pool: 5
+  username: ysstats
+  password:
+#  socket: /tmp/mysql.sock
+
+source:
+  adapter: jdbcmysql
+  encoding: utf8
+  reconnect: false
+  database: ysstats_data
+  pool: 5
+  username: ysstats
+  password:  

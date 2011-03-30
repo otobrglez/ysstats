@@ -1,0 +1,51 @@
+/*
+	By Oto Brglez
+*/
+
+body,td,th,p{
+	font-family: "Helvetica neue", helvetica, sans-serif;
+	font-size:10pt;
+}
+
+a{
+	color:#66A9D5;
+}
+
+h1,h2,h3,p{ margin:0px; padding:0px; margin-bottom:5px; }
+
+h1,h2,h3{
+	font-weight:normal;
+}
+
+
+table{
+	th{
+		background-color:#eee;
+		color:#333;
+		font-weight:normal;
+	}
+	
+	border-collapse:collapse;
+	td,th{
+		padding:0px;
+		margin:0px;
+		padding:3px;
+	
+		border-right:1px solid #ccc;
+		border-bottom:1px solid #ccc;
+	}
+	
+	border-top:1px solid #CCC;
+	border-left:1px solid #CCC;
+}
+
+body{
+	padding:10px;
+	text-align:center;
+}
+
+.main-wrap{
+	text-align:left;
+	max-width:800px;
+	margin:0px auto;
+}

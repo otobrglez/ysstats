@@ -1,0 +1,16 @@
+== ysstats
+
+This project is experiment on how to combine mondrian-olap (OLAP) and Ruby on Rails.
+
+Because the project was originaly build for a client - whitch holds all rights
+to original data - the data is not part of the project.
+
+You can contact me if you need some help...
+
+Oto Brlgez
+
+http://opalab.com
+
+= Requirements
+
+To run this project you need jRuby (there is .rvmrc file if you use RVM).

@@ -1,0 +1,59 @@
+/*
+	By Oto Brglez
+*/
+/* line 5, ../../../app/stylesheets/screen.scss */
+body, td, th, p {
+  font-family: "Helvetica neue", helvetica, sans-serif;
+  font-size: 10pt;
+}
+
+/* line 10, ../../../app/stylesheets/screen.scss */
+a {
+  color: #66A9D5;
+}
+
+/* line 14, ../../../app/stylesheets/screen.scss */
+h1, h2, h3, p {
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 5px;
+}
+
+/* line 16, ../../../app/stylesheets/screen.scss */
+h1, h2, h3 {
+  font-weight: normal;
+}
+
+/* line 21, ../../../app/stylesheets/screen.scss */
+table {
+  border-collapse: collapse;
+  border-top: 1px solid #CCC;
+  border-left: 1px solid #CCC;
+}
+/* line 22, ../../../app/stylesheets/screen.scss */
+table th {
+  background-color: #eee;
+  color: #333;
+  font-weight: normal;
+}
+/* line 29, ../../../app/stylesheets/screen.scss */
+table td, table th {
+  padding: 0px;
+  margin: 0px;
+  padding: 3px;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+/* line 42, ../../../app/stylesheets/screen.scss */
+body {
+  padding: 10px;
+  text-align: center;
+}
+
+/* line 47, ../../../app/stylesheets/screen.scss */
+.main-wrap {
+  text-align: left;
+  max-width: 800px;
+  margin: 0px auto;
+}
